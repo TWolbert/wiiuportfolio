@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    cursor: url("/images/cursor.cur"), auto;
+}
+
+a:-webkit-any-link {
+    cursor: url("/images/cursor.cur"), auto;
+}
+
+.dotted-background {
+    background: white;
+    background-image: radial-gradient(rgb(241, 241, 241) 4px, transparent 0);
+    background-size: 10px 10px;
+    background-position: -19px -19px;
+}
