@@ -36,7 +36,7 @@ export default function StartScreen() {
         }
     }, [])
     return (
-        <div className="flex user-select-none pointer-events-none min-h-screen flex-col items-center justify-center p-2 font-wiiu h-full fixed z-10 transition-all duration-1000 bg-white w-full" id="introScreen">
+        <div className="flex user-select-none pointer-events-none min-h-screen flex-col items-center justify-center p-2 font-wiiu h-full fixed z-50 transition-all duration-1000 bg-white w-full" id="introScreen">
             <Image src={teunNintendo} height={150} alt="TeunW U" id="nintendoLogo" className="fixed transition-all duration-1000" />
             <div id="WiiULogo" className="text-3xl scale-[300%] transition-all duration-1000 flex gap-1" style={{ opacity: 0 }}>
                 <Image src={TeunText} height={50} alt="Teun" />
